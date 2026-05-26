@@ -1,21 +1,103 @@
 <html>
 <head>
-    <link rel="stylesheet" href="site.css"/>
-<h1>Head</h1>
-</head>
-<body>
-    <main>
-        <div class="test">
-            <p>Body</p>
-        </div>
-      <button onclick="window.location.href='temp.html';">
-  Go to Temp
-</button>
-        <footer>
-        <h3>Fotter</h3>
-        </footer>
-    </main>
-<script src="site.js" ></script>
-</body>
+    
+    <title>Сладкарница Мечо Пекар</title>
 
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .header{
+            background-color: #fff0f5;
+            border-bottom: 3px solid #ffb6c1;
+            padding: 15px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo-area{
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+        .logo-area img{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 3px solid #ffb6c1;
+        }
+        .logo-text h1{
+            margin: 0;
+            font-size: 20px;
+            color: #c2185b;
+        }
+        .logo-text p{
+            margin: 0;
+            font-size: 13px;
+            color: #e91e8c;
+        }
+        .nav-links a{
+            text-decoration: none;
+            color:#c2185b;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .nav-links a:hover{
+            color: #e91e8c;
+            text-decoration: underline;
+        }
+        .login-btn{
+            background-color: #ffb6c1;
+            color: #7b003c;
+            border: 2px solid #c2185b;
+            padding: 8px 18px;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .login-btn:hover{
+            background-color: #ff85a1;
+        }
+        .banner {
+            background-color: #ffe4f0;
+            text-align: center;
+            padding: 18px;
+            border-bottom: 2px dashed #ffb6c1; 
+        }
+        .banner h2{
+            margin: 0 0 6px 0;
+            color: #c2185b;
+            font-size: 22px;
+        }
+        .banner p{
+            margin: 0;
+            color: #e91e8c;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo-area">
+        <img src="https://cdn.discordapp.com/attachments/1505191146366701710/1507042191061815326/9d045a500cfb87b0.png?ex=6a15bbe9&is=6a146a69&hm=ec7f888a00855db2017737d6db54824e5248000df99570323e972376eccd3cbd&" alt="Лого на Мечо Пекар"/>
+        <div class ="logo-text">
+            <h1>Мечо Пекар</h1>
+            <p>Сладкарница</p>
+        </div>
+    </div>
+    <ul class="nav-links">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="location.html">Location</a></li>
+    </ul>
+    <button class="login-btn">Login</button>
+    </div>
+    <div class="banner">
+        <h2>Добре дошли в Сладкарница Мечо Пекар!</h2>
+        <p>Влез в профила си, за да видиш тайните ни рецепти!</p>
+    </div>
+</body>
 </html>
