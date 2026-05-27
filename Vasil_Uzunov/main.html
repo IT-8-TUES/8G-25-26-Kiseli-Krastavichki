@@ -2,81 +2,7 @@
 <head>
     
     <title>Сладкарница Мечо Пекар</title>
-
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        .header{
-            background-color: #fff0f5;
-            border-bottom: 3px solid #ffb6c1;
-            padding: 15px 30px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .logo-area{
-            display: flex;
-            align-items: center;
-            gap: 14px;
-        }
-        .logo-area img{
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            border: 3px solid #ffb6c1;
-        }
-        .logo-text h1{
-            margin: 0;
-            font-size: 20px;
-            color: #c2185b;
-        }
-        .logo-text p{
-            margin: 0;
-            font-size: 13px;
-            color: #e91e8c;
-        }
-        .nav-links a{
-            text-decoration: none;
-            color:#c2185b;
-            font-size: 15px;
-            font-weight: bold;
-        }
-        .nav-links a:hover{
-            color: #e91e8c;
-            text-decoration: underline;
-        }
-        .login-btn{
-            background-color: #ffb6c1;
-            color: #7b003c;
-            border: 2px solid #c2185b;
-            padding: 8px 18px;
-            font-size: 14px;
-            font-weight: bold;
-            border-radius: 20px;
-            cursor: pointer;
-        }
-        .login-btn:hover{
-            background-color: #ff85a1;
-        }
-        .banner {
-            background-color: #ffe4f0;
-            text-align: center;
-            padding: 18px;
-            border-bottom: 2px dashed #ffb6c1; 
-        }
-        .banner h2{
-            margin: 0 0 6px 0;
-            color: #c2185b;
-            font-size: 22px;
-        }
-        .banner p{
-            margin: 0;
-            color: #e91e8c;
-            font-size: 14px;
-        }
-    </style>
+    <link rel="stylesheet" href="site.css"/>
 </head>
 
 <body>
@@ -90,14 +16,71 @@
     </div>
     <ul class="nav-links">
         <li><a href="about.html">About Us</a></li>
-        <li><a href="menu.html">Menu</a></li>
+        <li><a href="temp.html">Menu</a></li>
         <li><a href="location.html">Location</a></li>
     </ul>
     <button class="login-btn">Login</button>
     </div>
-    <div class="banner">
-        <h2>Добре дошли в Сладкарница Мечо Пекар!</h2>
-        <p>Влез в профила си, за да видиш тайните ни рецепти!</p>
+    <div class="hero">
+    <h2>Добре дошли в Сладкарница Мечо Пекар! 🎂</h2>
+    <p>Всеки ден пресни торти, кексчета и бисквити — приготвени с любов!</p>
+    <a href="temp.html" class="hero-btn">Виж менюто →</a>
+  </div>
+ 
+  <div class="section">
+    <h2>Любимците на клиентите ни ⭐</h2>
+ 
+    <div class="product-card">
+      <div class="product-info">
+        <h3>🎂 Шоколадова торта</h3>
+        <p>Пухкав шоколадов блат с крем ганаш и пресни ягоди.</p>
+        <p class="price">12.00 лв / парче</p>
+      </div>
     </div>
+ 
+    <div class="product-card">
+      <div class="product-info">
+        <h3>🧁 Кексче с череша</h3>
+        <p>Пухкаво кексче с ванилов крем и червена череша отгоре.</p>
+        <p class="price">3.50 лв / брой</p>
+      </div>
+    </div>
+ 
+    <div class="product-card">
+      <div class="product-info">
+        <h3>🍪 Домашни бисквити</h3>
+        <p>Хрупкави бисквити с шоколадови парченца.</p>
+        <p class="price">1.80 лв / брой</p>
+      </div>
+    </div>
+ 
+    <p style="text-align: center; margin-top: 20px;">
+      <a href="temp.html" class="hero-btn">Цялото меню →</a>
+    </p>
+  </div>
+ 
+  <div class="section" id="about">
+    <h2>За нас</h2>
+    <p>
+      Сладкарница "Мечо Пекар" е създадена с любов към сладкото и усмивките.
+      Всеки ден приготвяме пресни торти, кексчета и бисквити по домашни рецепти.
+    </p>
+    <p>
+      Нашият мечок-готвач пази тайните рецепти само за нашите специални членове!
+      Влез в профила си от страницата с менюто, за да получиш достъп.
+    </p>
+  </div>
+ 
+  <div class="section" id="location">
+    <h2>Локация</h2>
+    <p>📍 Намери ни на: <strong>ул. Граф Игнатиев, София</strong></p>
+    <p>🕐 Работно време: Понеделник – Събота, 8:00 – 20:00</p>
+    <p>📞 Телефон: 01 234 5678</p>
+  </div>
+ 
+  <div class="footer">
+    <p>© 2025 Сладкарница Мечо Пекар. Всички права запазени. 🐻</p>
+  </div>
+ 
 </body>
 </html>
