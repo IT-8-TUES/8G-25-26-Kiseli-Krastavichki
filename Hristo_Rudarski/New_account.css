@@ -1,0 +1,41 @@
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+    
+    
+}
+
+.Elem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 50rem;
+    height: 30rem;
+
+    text-align: center;
+    border: 1rem solid black;
+    border-radius: 2rem;
+    background-color: aliceblue;
+}
+
+input{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 30rem;
+    height: 6rem;
+    padding: 1.8rem;
+    margin: 0.9rem;
+    font-size: 1.8rem;
+    border-radius: 1.5rem;
+    border: 0.3rem solid black;
+    
+    
+}
