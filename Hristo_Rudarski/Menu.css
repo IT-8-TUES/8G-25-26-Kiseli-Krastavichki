@@ -1,0 +1,156 @@
+.Menu{
+    display: flex;
+    flex-wrap: wrap;    
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    background-color: #fff8fb;
+    
+
+}
+
+body{
+     border: 0.4rem solid #ffb6c1;
+    border-radius: 1%;
+}
+
+.Items{
+    margin-bottom: 6rem;
+}
+
+.choc{
+    width: 70%;
+
+    display: flex;
+    gap: 7rem;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 2rem;
+      
+    box-sizing: border-box;
+}
+
+
+.choc img{
+    
+    height: auto;
+    display: block;
+    margin: 2rem;
+    border: 0.3rem solid #ffb6c1;
+    
+    border-radius: 10%;
+}
+
+
+.txt h2{
+    margin: 5rem;
+    color: #c2185b;
+   
+}
+
+.txt{
+    border: 0.2rem solid #ffb6c1;
+    border-radius: 15%;
+    padding: 2rem;
+    padding-top: 0.5rem;
+
+    text-align: center;
+    background-color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 130%;
+}
+
+.Big{
+    margin: 0;
+}
+
+.price{
+    font-size: 80%;
+    font-weight: bold;
+    margin: 2rem;
+    color: #c2185b;
+}
+.big{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.little{
+    width: 70%;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+    justify-content: center;
+    
+    margin: 0.5rem;
+      
+    
+}
+
+.Lit{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20rem;
+}
+
+.little img{
+    width: 18%;
+    min-width: 11rem;
+    height: auto;
+    border-radius: 10%;
+    
+}
+
+
+.sml{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    border: 0.1rem solid #ffb6c1;
+    background-color: aliceblue;
+    border-radius: 7%;
+    color: #c2185b;
+
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 20rem;
+
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 140%;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+
+    width: fit-content;
+    margin: 3rem auto;
+    
+}
+
+
+.Buttons{
+    width: 25rem;
+    height: 4rem;
+
+    font-size: 2rem;
+
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+   
+    text-align: center;
+}
