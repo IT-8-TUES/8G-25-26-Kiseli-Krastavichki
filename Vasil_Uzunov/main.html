@@ -8,39 +8,39 @@
 
 <body>
     <div class="header">
-        <div class="logo-area">
+        <div class="logoarea">
             <img src="images/logo.png" alt="Лого на Мечо Пекар"/>
-            <div class="logo-text">
+            <div class="logotext">
                 <h1>Мечо Пекар</h1>
                 <p>Сладкарница</p>
             </div>
         </div>
-        <ul class="nav-links">
+        <ul class="navigation">
             <li><a href="about.html">About Us</a></li>
             <li><a href="../Hristo_Rudarski/Menu.html">Menu</a></li>
             <li><a href="location.html">Location</a></li>
         </ul>
-        <button class="login-btn" onclick="window.location.href='../Hristo_Rudarski/forma.html'">Login</button>
+        <button class="loginbuton" onclick="window.location.href='../Hristo_Rudarski/forma.html'">Login</button>
     </div>
     <div class="hero">
         <h2>Добре дошли в Сладкарница Мечо Пекар! </h2>
         <p>Всеки ден пресни торти, кексчета и бисквити - приготвени с любов!</p>
-        <a href="../Hristo_Rudarski/Menu.html" class="hero-btn">Виж менюто </a>
+        <a href="../Hristo_Rudarski/Menu.html" class="herobuton">Виж менюто </a>
     </div>
     <div class="section">
         <h2>Любимците на клиентите ни </h2>
 
-        <div class="product-card">
-            <div class="product-info">
+        <div class="productcard">
+            <div class="productinfo">
                 <h3> Шоколадова торта</h3>
                 <p>Пухкав шоколадов блат с крем ганаш и пресни ягоди.</p>
-                <p class="price">12.00 € / парче</p>
+                <p class="price">12.00 €</p>
             </div>
         </div>
 
 
-        <div class="product-card">
-            <div class="product-info">
+        <div class="productcard">
+            <div class="productinfo">
                 <h3> Домашни бисквити</h3>
                 <p>Хрупкави бисквити с шоколадови парченца.</p>
                 <p class="price">1.80 € / брой</p>
@@ -48,28 +48,38 @@
         </div>
 
         <p style="text-align: center; margin-top: 20px;">
-            <a href="../Hristo_Rudarski/Menu.html" class="hero-btn">Цялото меню </a>
+            <a href="../Hristo_Rudarski/Menu.html" class="herobuton">Цялото меню </a>
         </p>
     </div>
     <div class="section">
         <h2> Калкулатор за поръчка</h2>
         <p>Въведи количествата и разбери колко ще струва поръчката ти!</p>
 
-        <div class="calc-row">
+        <div class="calcred">
             <label> Шоколадова торта (12.00 €):</label>
             <input type="number" id="kol-torta" min="0" value="0" />
         </div>
 
 
-        <div class="calc-row">
+        <div class="calcred">
             <label> Домашни бисквити (1.80 €):</label>
             <input type="number" id="kol-biskviti" min="0" value="0" />
         </div>
 
+        <div class="calcred">
+            <label> Домашен сладолед (4.99 €):</label>
+            <input type="number" id="kol-sladoled" min="0" value="0" />
+        </div>
+
+        <div class="calcred">
+            <label> Суфле (6.00 €):</label>
+            <input type="number" id="kol-sufle" min="0" value="0" />
+        </div>
+
         <p style="text-align: center; margin-top: 20px;">
-            <button class="calc-btn" onclick="presmetniCena()">Пресметни </button>
+            <button class="calcbuton" onclick="presmetniCena()">Пресметни </button>
         </p>
-        <p id="rezultat" class="calc-rezultat"></p>
+        <p id="rezultat" class="calcrezultat"></p>
     </div>
     <div class="section" id="about">
         <h2>За нас</h2>
@@ -92,6 +102,6 @@
         <p>&copy 2025 Сладкарница Мечо Пекар. Всички права запазени. </p>
     </div>
     <script src="site.js"></script>
-
+    <iframe src="temp.html" width="100%" height="600px" style="border: none;"></iframe>
 </body>
 </html>

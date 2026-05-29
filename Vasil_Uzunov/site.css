@@ -12,47 +12,47 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-.logo-area {
+.logoarea {
   display: flex;
   align-items: center;
   gap: 14px;
 }
-.logo-img,
-.logo-area img {
+.logoimg,
+.logoarea img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   border: 3px solid #ffb6c1;
   object-fit: cover;
 }
-.logo-text h1 {
+.logotext h1 {
   margin: 0;
   font-size: 20px;
   color: #c2185b;
 }
-.logo-text p {
+.logotext p {
   margin: 0;
   font-size: 13px;
   color: #e91e8c;
 }
-.nav-links {
+.navigation {
   display: flex;
   gap: 25px;
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.nav-links a {
+.navigation a {
   text-decoration: none;
   color: #c2185b;
   font-size: 15px;
   font-weight: bold;
 }
-.nav-links a:hover {
+.navigation a:hover {
   color: #e91e8c;
   text-decoration: underline;
 }
-.login-btn {
+.loginbuton {
   background-color: #ffb6c1;
   color: #7b003c;
   border: 2px solid #c2185b;
@@ -62,7 +62,7 @@ body {
   border-radius: 20px;
   cursor: pointer;
 }
-.login-btn:hover {
+.loginbuton:hover {
   background-color: #ff85a1;
 }
 .hero {
@@ -81,7 +81,7 @@ body {
   color: #e91e8c;
   font-size: 16px;
 }
-.hero-btn {
+.herobuton {
   display: inline-block;
   background-color: #c2185b;
   color: white;
@@ -91,7 +91,7 @@ body {
   font-size: 15px;
   font-weight: bold;
 }
-.hero-btn:hover {
+.herobuton:hover {
   background-color: #e91e8c;
 }
 .banner {
@@ -129,10 +129,9 @@ body {
   font-size: 15px;
   line-height: 1.7;
 }
-.section a {
-  color: #e91e8c;
-}
-.product-card {
+
+
+.productcard {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -142,12 +141,12 @@ body {
   padding: 15px 20px;
   margin-bottom: 15px;
 }
-.product-info h3 {
+.productinfo h3 {
   margin: 0 0 5px 0;
   color: #c2185b;
   font-size: 17px;
 }
-.product-info p {
+.productinfo p {
   margin: 0 0 5px 0;
   font-size: 14px;
   color: #555;
@@ -165,17 +164,17 @@ body {
   color: #c2185b;
   font-size: 14px;
 }
-.calc-row {
+.calcred {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 12px;
 }
-.calc-row label {
+.calcred label {
   font-size: 15px;
   color: #333;
 }
-.calc-row input {
+.calcred input {
   width: 70px;
   padding: 6px 10px;
   border: 2px solid #ffb6c1;
@@ -183,7 +182,7 @@ body {
   font-size: 15px;
   text-align: center;
 }
-.calc-btn {
+.calcbuton {
   background-color: #c2185b;
   color: white;
   border: none;
@@ -193,12 +192,49 @@ body {
   border-radius: 25px;
   cursor: pointer;
 }
-.calc-btn:hover {
+.calcbuton:hover{
   background-color: #e91e8c;
 }
-.calc-rezultat {
+.calcrezultat {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
   margin-top: 10px;
+}
+.butonizp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.butonizp span {
+  font-size: 18px;
+  font-weight: bold;
+  min-width: 20px;
+  text-align: center;
+  color: #c2185b;
+}
+.butonplus, .minusbuton {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid #c2185b;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 1;
+}
+.butonplus {
+  background-color: #c2185b;
+  color: white;
+}
+.butonplus:hover{
+  background-color: #e91e8c;
+  border-color: #e91e8c;
+}
+.minusbuton {
+  background-color: white;
+  color: #c2185b;
+}
+.minusbuton:hover {
+  background-color: #fff0f5;
 }

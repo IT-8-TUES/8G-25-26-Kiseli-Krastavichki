@@ -1,4 +1,72 @@
 <html>
+<body>
+    <!-- МЕНЮ + ПОРЪЧКА -->
+<div class="section">
+    <link rel="stylesheet" href="site.css"/>
+    <h2>Торти</h2>
 
+    <div class="productcard">
+        <div class="productinfo">
+            <h3>Шоколадова торта</h3>
+            <p class="price">12.00 € / брой</p>
+        </div>
+        <div class="butonizp">
+            <button class="minusbuton" onclick="promeni('torta', -1)">-</button>
+            <span id="br-torta">0</span>
+            <button class="plusbuton" onclick="promeni('torta', 1)">+</button>
+        </div>
+    </div>
+
+    <div class="productcard">
+        <div class="productinfo">
+            <h3>Домашни бисквити</h3>
+            <p class="price">1.80 € / брой</p>
+        </div>
+        <div class="butonizp">
+            <button class="minusbuton" onclick="promeni('biskviti', -1)">-</button>
+            <span id="br-biskviti">0</span>
+            <button class="plusbuton" onclick="promeni('biskviti', 1)">+</button>
+        </div>
+    </div>
+
+    <div class="productcard">
+        <div class="productinfo">
+            <h3>Домашен сладолед</h3>
+            <p class="price">4.99 € / брой</p>
+        </div>
+        <div class="butonizp">
+            <button class="minusbuton" onclick="promeni('sladoled', -1)">-</button>
+            <span id="br-sladoled">0</span>
+            <button class="plusbuton" onclick="promeni('sladoled', 1)">+</button>
+        </div>
+    </div>
+
+    <div class="productcard">
+        <div class="productinfo">
+            <h3>Суфле</h3>
+            <p class="price">6.00 € / брой</p>
+        </div>
+        <div class="butonizp">
+            <button class="minusbuton" onclick="promeni('sufle', -1)">-</button>
+            <span id="br-sufle">0</span>
+            <button class="plusbuton" onclick="promeni('sufle', 1)">+</button>
+        </div>
+    </div>
+
+</div>
+
+<!-- ОБОБЩЕНИЕ -->
+<div class="section" id="porychka">
+    <h2>Твоята поръчка</h2>
+    <div id="porychka-lista">
+        <p style="color:#aaa;">Все още не си избрал продукти.</p>
+    </div>
+    <p id="obshta-cena" class="calcrezultat"></p>
+    <p style="text-align: center;">
+        <button class="calcbuton" onclick="izpraviPorychka()">Изпрати поръчката</button>
+    </p>
+    <p id="porychka-msg" style="text-align:center; font-weight:bold;"></p>
+</div>
+</body>
 
 </html>
