@@ -1,8 +1,8 @@
 
 body {
     margin: 0;
-    font-family: "Saira", sans-serif;
-    background-color: #ebb7ba;
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: #ffb6c1;
 }
 
 .logo {
@@ -23,7 +23,7 @@ body {
     padding: 20px 40px;
     background-color:   #d16e7d;
     color: white;
-    border: 3px solid #773a44;
+    border: 3px solid #ffb6c1;
     border-radius: 15px;
     position: fixed;
     top: 0;
@@ -39,7 +39,7 @@ body {
     border-radius: 12px;
 }
 
-.logo,
+
 .nav-links a {
     transition: font-size 0.25s ease;
 }
@@ -74,16 +74,16 @@ body {
 }
 
 h1 {
-    font-family: "Saira", sans-serif;
+    font-family: "Trebuchet MS", sans-serif;
     font-weight: 800;
     font-size: 100px;
-    color: rgb(161, 45, 45);
+    color: #c2185b;
     text-align: center;
     margin-bottom: 0px;
 }
 
 p {
-    font-family: "Saira", sans-serif;
+    font-family: "Trebuchet MS", sans-serif;
     font-weight: 400;
     font-size: 50px;
     color: rgb(131, 39, 39);
@@ -95,7 +95,7 @@ p {
 
     background-color: #d16e7d;
     color: white;
-    font-family: "Saira", sans-serif;
+    font-family: "Trebuchet MS", sans-serif;
     font-size: 5px;
     text-align: center;
     padding: 20px 0px;
@@ -116,11 +116,12 @@ p {
     width: 100%;
     padding: 50px 0 0;
     box-sizing: border-box;
+    margin: 10px;
 }
 
 .hero-image img {
-    width: 100%;
-    max-width: 100%;
+    width: 95%;
+    max-width: 95%;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease, opacity 0.3s ease, filter 0.3s ease;
