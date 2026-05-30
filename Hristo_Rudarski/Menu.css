@@ -10,7 +10,7 @@
 }
 
 body{
-     border: 0.4rem solid #ffb6c1;
+    border: 0.4rem solid #ffb6c1;
     border-radius: 1%;
 }
 
@@ -136,6 +136,7 @@ body{
     width: fit-content;
     margin: 3rem auto;
     
+    
 }
 
 
@@ -144,6 +145,7 @@ body{
     height: 4rem;
 
     font-size: 2rem;
+    
 
     border-radius: 1rem;
     display: flex;
