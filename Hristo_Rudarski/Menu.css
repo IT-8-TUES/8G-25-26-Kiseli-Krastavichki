@@ -56,7 +56,7 @@ body{
 
     text-align: center;
     background-color: aliceblue;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Trebuchet MS", sans-serif;
     font-size: 130%;
 }
 
@@ -123,7 +123,7 @@ body{
     margin-left: 20rem;
 
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Trebuchet MS", sans-serif;
     font-size: 140%;
 }
 
@@ -155,4 +155,9 @@ body{
 
    
     text-align: center;
+}
+
+.Buttons:hover{
+    opacity: 0.8;
+  
 }
